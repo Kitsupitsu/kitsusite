@@ -25,16 +25,19 @@ body {
 }
 
 .info {
-  margin-left: 5vw;
   margin-right: 5vw;
 }
 #infobox {
-  margin-left: 5vw;
-  margin-bottom: 5vh;
-  width: 20vw;
+  margin-left: 4vw;
+  margin-bottom: 10vh;
+  width: 25vw;
   height: 40vh;
   background-color: #2E2F30;
   position: relative;
   float: left;
+  padding: 1vw;
+}
 
+#infobox p {
+  color: lightgrey;
 }
