@@ -2,7 +2,7 @@
 <html>
 <head>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Josefin+Sans&effect=anaglyph|Megrim|Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Megrim|Montserrat|Josefin+Sans&effect=anaglyph" rel="stylesheet">
 </head>
 <body>
   <div id="upper-menu">
@@ -20,6 +20,7 @@
     <div id="cat">
       <a href="/pat" title="Pet the cat by clicking it!"><%=image_tag("kissa.png")%></a>
     </div>
+
     <div id="infobox">
 
       <p>
@@ -32,6 +33,7 @@
     <div id="infobox">
 
     </div>
+    <p id="pats">The cat has been petted <%= Cat.first.pats %> times.</p>
     <div id="infobox">
 
     </div>

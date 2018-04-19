@@ -33,17 +33,18 @@ body {
 }
 
 .info {
-  margin-right: 5vw;
+
 }
 #infobox {
-  margin-left: 4vw;
-  margin-bottom: 10vh;
-  width: 25vw;
-  height: 40vh;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+  height: 300px;
   background-color: #2E2F30;
   position: relative;
   float: left;
-  padding: 1vw;
+  padding: 15px;
+  overflow: hidden;
 }
 
 #infobox p {
@@ -58,14 +59,32 @@ body {
 }
 
 #cat img {
-  height: 20vh;
+  height: 150px;
+
 }
 
 #cat {
-  left: 90%;
+  left: 85vw;
   position: relative;
   z-index: 1;
   top: 27px;
+  width: 10px;
+
+}
+
+#pats {
+  width: 300px;
+  height: 50px;
+  margin: 0;
+  float: right;
+  position: absolute;
+  right: -70px;
+  top: 1040px;
+  font-family: Montserrat;
+  -webkit-transform: rotate(-270deg);
+  -moz-transform: rotate(-270deg);
+  -ms-transform: rotate(-270deg);
+  -o-transform: rotate(-270deg);
 }
 
 // font-family: 'Fredoka One', cursive;
