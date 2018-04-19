@@ -14,6 +14,14 @@ body {
   height: 50px;
 }
 
+#about {
+  color: black;
+  font-family: Megrim;
+  font-size: 35px;
+  float: right;
+  margin-right: 2vw;
+}
+
 #splash-picture {
   width: 100vw;
   height: 650px;
@@ -84,6 +92,8 @@ body {
   -ms-transform: rotate(-270deg);
   -o-transform: rotate(-270deg);
 }
+
+
 
 // font-family: 'Fredoka One', cursive;
 // font-family: 'Megrim', cursive;
