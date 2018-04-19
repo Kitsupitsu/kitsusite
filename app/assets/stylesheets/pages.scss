@@ -18,10 +18,18 @@ body {
   height: 650px;
   overflow: hidden;
   margin-bottom: 10vh;
+  background-color: white;
 }
 
-#placeholder-test img {
-  width: 100vw;
+#placeholder-test h1 {
+  font-family: 'Josefin Sans';
+  color: #212121;
+  font-size: 100px;
+  letter-spacing: 3px;
+}
+
+.font-effect-anaglyph {
+  margin: 10px;
 }
 
 .info {
@@ -40,4 +48,9 @@ body {
 
 #infobox p {
   color: lightgrey;
+  font-family: 'Montserrat';
 }
+
+// font-family: 'Fredoka One', cursive;
+// font-family: 'Megrim', cursive;
+// font-family: 'Bungee Shade', cursive;
