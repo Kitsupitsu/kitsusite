@@ -2,26 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-  margin: 0;
-  background-color: #DBDBDB;
-  overflow-x: hidden;
-}
-
-#upper-menu {
-  width: 100vw;
-  background-color: dimgrey;
-  height: 50px;
-}
-
-#about {
-  color: black;
-  font-family: Megrim;
-  font-size: 35px;
-  float: right;
-  margin-right: 2vw;
-}
-
 #splash-picture {
   width: 100vw;
   height: 650px;
@@ -53,7 +33,7 @@ body {
   background-color: #2E2F30;
   position: relative;
   float: left;
-  padding: 15px;
+  padding: 10px;
 }
 
 #infobox p {
