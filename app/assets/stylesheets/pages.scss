@@ -1,3 +1,35 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 0;
+  background-color: #DBDBDB;
+}
+
+#upper-menu {
+  width: 100vw;
+  background-color: dimgrey;
+  height: 50px;
+}
+
+#placeholder-test {
+  width: 100vw;
+  height: 650px;
+  overflow: hidden;
+  margin-bottom: 10vh;
+}
+
+#placeholder-test img {
+  width: 100vw;
+}
+
+.info {
+  margin-left: 5vw;
+}
+#infobox {
+  width: 20vw;
+  height: 40vh;
+  background-color: #2E2F30;
+  position: relative;
+}
