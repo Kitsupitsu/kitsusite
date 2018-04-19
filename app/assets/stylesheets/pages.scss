@@ -13,15 +13,15 @@ body {
   height: 50px;
 }
 
-#placeholder-test {
+#splash-picture {
   width: 100vw;
   height: 650px;
   overflow: hidden;
-  margin-bottom: 10vh;
+  margin-bottom: 0;
   background-color: white;
 }
 
-#placeholder-test h1 {
+#splash-picture h1 {
   font-family: 'Josefin Sans';
   color: #212121;
   font-size: 100px;
@@ -49,6 +49,23 @@ body {
 #infobox p {
   color: lightgrey;
   font-family: 'Montserrat';
+}
+
+#name {
+  top: 30%;
+  left: 50%;
+  position: relative;
+}
+
+#cat img {
+  height: 20vh;
+}
+
+#cat {
+  left: 90%;
+  position: relative;
+  z-index: 1;
+  top: 27px;
 }
 
 // font-family: 'Fredoka One', cursive;
