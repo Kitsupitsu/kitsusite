@@ -5,6 +5,7 @@
 body {
   margin: 0;
   background-color: #DBDBDB;
+  overflow-x: hidden;
 }
 
 #upper-menu {
@@ -29,16 +30,17 @@ body {
 }
 
 .font-effect-anaglyph {
-  margin: 10px;
+  margin: 2vw;
 }
 
 .info {
-  margin-left: 3vw;
+  margin-left: 2.5vw;
 }
 #infobox {
-  margin-left: 50px;
+  margin-left: 2vw;
+  margin-right: 2vw;
   margin-bottom: 50px;
-  width: 20vw;
+  width: 18vw;
   height: 400px;
   background-color: #2E2F30;
   position: relative;
